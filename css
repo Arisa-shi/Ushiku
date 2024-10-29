@@ -1,0 +1,164 @@
+/* 共通設定 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ラッパー */
+  .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* ヘッダー */
+  #header {
+    background-color: #FFD700;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFCC00;
+  }
+  
+  #header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* メインセクション */
+  main {
+    padding: 20px;
+  }
+  
+  
+  /* セクションタイトル */
+  .section-title {
+    font-size: 2em;
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+  }
+  
+  /* 最初のブロック */
+  #first-block {
+    background-color: #FFEB3B;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  #first-block h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #first-block h2 {
+    font-size: 1.8em;
+    color: #555;
+  }
+  
+  #first-block h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* コンテンツリスト */
+  .content-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+      text-align: left;
+  }
+  
+  .content-list li {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #FFEB3B;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;  }
+  
+  .content-list img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .content-title {
+    font-size: 1.5em;
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* 牛久市の現状 */
+  #current-status {
+    background-color: #fff;
+    padding: 40px;
+    border-left: 5px solid #FFD700;
+  }
+
+    /* 牛久市の理想 */
+    #ideal-future {
+        background-color: #fff8e1;
+        padding: 40px;
+        margin-bottom: 40px;
+        border-left: 5px solid #FFD700;
+      }
+  
+  /* 牛久市の課題 */
+  #challenges {
+    background-color: #fff8e1;
+    padding: 40px;
+    border-left: 5px solid #FFD700;
+  }
+  
+  /* 牛久市の解決策 */
+  #solutions {
+    background-color: #fff;
+    padding: 40px;
+    border-left: 5px solid #FFD700;
+  }
+  
+  /* 今後の展望 */
+  #future {
+    background-color: #fff8e1;
+    padding: 40px;
+    border-left: 5px solid #FFD700;
+    margin-bottom: 50px;
+  }
+  
+  /* フッター */
+  #footer {
+    position: fixed;       /* フッターを固定 */
+    bottom: 0;             /* 画面下に固定 */
+    left: 0;
+    width: 100%;           /* フッターが画面幅いっぱいに広がる */
+    background-color: #FFD700;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #FFCC00;
+    z-index: 1000;         /* 他の要素の上に表示されるようにする */
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
