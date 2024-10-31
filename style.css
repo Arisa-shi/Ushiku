@@ -145,7 +145,7 @@ body {
   
   /* フッター */
   #footer {
-    position: fixed;       /* フッターを固定 */
+  
     bottom: 0;             /* 画面下に固定 */
     left: 0;
     width: 100%;           /* フッターが画面幅いっぱいに広がる */
